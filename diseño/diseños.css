@@ -1,0 +1,180 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:olive;
+   
+    display: flex;
+    padding: 9px 0px 11px 8px;
+    border: 2cm olive;
+    justify-content: start;
+}
+nav ul li a{
+    color:antiquewhite;
+    font-size:large;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+
+body{
+    background-image: url(../img/fondo.jfif);
+}
+
+main{
+    margin: 5px 0px 20px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+footer{
+    background-color:olive;
+    margin: 0%;
+  
+}
+
+form{
+    font-weight: bold;
+}
+
+/*index*/
+.vid{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 10px 30px 10px;
+    flex-wrap: wrap;
+}
+.info{
+    margin: 10px 20px 20px 20px;
+}
+
+/*reservas*/
+#reservas{
+    margin: 0px 30px 30px 10px;
+}
+.Reservas{
+    margin: 50px 0px 20px 10px;
+    
+}
+.reservas{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    height: 100vh;
+    justify-items:left
+}
+
+
+/*nosotros*/
+.nosotros{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    " main main main"
+    "footer footer";    
+}
+.mainNos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#posada{
+    display: flex;
+    margin: 15px 600px 15px 20px;
+    text-align: left;
+    background-color: white;
+    font-size: larger;
+}
+
+#posada2{
+    display: flex;
+    margin: 15px 20px 15px 600px;
+    background-color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#imgResto{
+    display: flex;
+    margin: 15px 60px 0px 100px;
+    width: 15cm;
+    height: 11cm;
+    object-position: 10px 30px;
+}
+
+
+
+
+
+
+/*habitciones*/
+#habitaciones{
+    background-color: white;
+    margin: 10px 15px 10px 15px;
+}
+
+.imghab{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imgHab1{
+    margin: 0px 0px 15px 0px;
+ width: 10cm;
+ height: 8cm;   
+}
+#imgHab2{
+    margin: 0px 0px 15px 0px;
+ width: 10cm;
+ height: 8cm;   
+}
+#imgHab3{
+    margin: 0px 0px 15px 0px;
+ width: 10cm;
+ height: 8cm;   
+}
+#imgHab4{
+    margin: 0px 0px 15px 0px;
+ width: 10cm;
+ height: 8cm;   
+}
+#imgHab5{
+    margin: 0px 0px 15px 0px;
+ width: 10cm;
+ height: 8cm;   
+}
+
+/*sala*/
+#sala{
+    width: 10cm;
+    height: 8cm;
+}
+
+/*menu*/
+.Menu{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main main"
+    "footer footer";
+    height: 100vh;
+    
+}
+.menu{
+    margin: 10px 10px 10px 30px;
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
