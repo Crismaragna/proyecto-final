@@ -16,7 +16,7 @@ header{
 .nav-align{
     justify-content: flex-end;
 }
-nav ul li a{
+nav div ul li a{
     color:antiquewhite;
     font-size:large;
     font-weight: bold;
@@ -36,7 +36,7 @@ a{
     text-decoration: none;
 }
 
-nav ul li{
+nav div ul li{
     display: inline-block;
 }
 
