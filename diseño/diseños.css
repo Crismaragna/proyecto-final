@@ -11,7 +11,10 @@ header{
     display: flex;
     padding: 9px 0px 11px 8px;
     border: 2cm olive;
-    justify-content: start;
+
+}
+.nav-align{
+    justify-content: flex-end;
 }
 nav ul li a{
     color:antiquewhite;
