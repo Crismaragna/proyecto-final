@@ -12,17 +12,19 @@ header{
     padding: 9px 0px 11px 8px;
     border: 2cm olive;
 
-}
 .nav-align{
     justify-content: flex-end;
-}
+
 nav div ul li a{
     color:antiquewhite;
     font-size:large;
     font-weight: bold;
     list-style-type: none;
-}
-
+    text-decoration: none;
+    display: inline-block;
+     }
+   }
+  }
 
 body{
     background-image: url(../img/fondo.jfif);
@@ -32,13 +34,9 @@ main{
     margin: 5px 0px 20px 0px;
 }
 
-a{
-    text-decoration: none;
-}
 
-nav div ul li{
-    display: inline-block;
-}
+
+
 
 footer{
     background-color:olive;

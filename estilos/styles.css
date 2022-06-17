@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: olive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 9px 0px 11px 8px;
+  border: 2cm olive;
+}
+
+header .nav-align {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .nav-align nav div ul li a {
+  color: antiquewhite;
+  font-size: large;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  background-image: url(../img/fondo.jfif);
+}
+
+main {
+  margin: 5px 0px 20px 0px;
+}
+
+footer {
+  background-color: olive;
+  margin: 0%;
+}
+
+form {
+  font-weight: bold;
+}
+
+/*index*/
+.vid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px 10px 30px 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.info {
+  margin: 10px 20px 20px 20px;
+}
+
+/*reservas*/
+#reservas {
+  margin: 0px 30px 30px 10px;
+}
+
+.Reservas {
+  margin: 50px 0px 20px 10px;
+}
+
+.reservas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px;
+      grid-template-columns: 200px 200px;
+  -ms-grid-rows: 30px 30px 30px 30px 30px 30px 30px;
+      grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+  height: 100vh;
+  justify-items: left;
+}
+
+/*nosotros*/
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header" " main main main" "footer footer";
+}
+
+.mainNos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#posada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 600px 15px 20px;
+  text-align: left;
+  background-color: white;
+  font-size: larger;
+}
+
+#posada2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 20px 15px 600px;
+  background-color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#imgResto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 60px 0px 100px;
+  width: 15cm;
+  height: 11cm;
+  -o-object-position: 10px 30px;
+     object-position: 10px 30px;
+}
+
+/*habitciones*/
+#habitaciones {
+  background-color: white;
+  margin: 10px 15px 10px 15px;
+}
+
+.imghab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#imgHab1 {
+  margin: 0px 0px 15px 0px;
+  width: 10cm;
+  height: 8cm;
+}
+
+#imgHab2 {
+  margin: 0px 0px 15px 0px;
+  width: 10cm;
+  height: 8cm;
+}
+
+#imgHab3 {
+  margin: 0px 0px 15px 0px;
+  width: 10cm;
+  height: 8cm;
+}
+
+#imgHab4 {
+  margin: 0px 0px 15px 0px;
+  width: 10cm;
+  height: 8cm;
+}
+
+#imgHab5 {
+  margin: 0px 0px 15px 0px;
+  width: 10cm;
+  height: 8cm;
+}
+
+/*sala*/
+#sala {
+  width: 10cm;
+  height: 8cm;
+}
+
+/*menu*/
+.Menu {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header" "main main main" "footer footer";
+  height: 100vh;
+}
+
+.menu {
+  margin: 10px 10px 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */
