@@ -76,12 +76,12 @@ form{
 /*nosotros*/
 .nosotros{
     display: grid;
-    grid-area: "header";    
+      
 }
 .mainNos{
     display: flex;
     flex-wrap: wrap;
-    grid-area: "main";
+    
     
 }
 #posada{
@@ -90,28 +90,7 @@ form{
     text-align: left;
     background-color: white;
     font-size: larger;
-    grid-area: "posada";
-}
-
-#posada2{
-    display: flex;
-    margin: 15px 20px 15px 600px;
-    background-color: white;
-    font-weight: bold;
-    font-size: larger;
-    grid-area: "posada2";
-}
-.nosotros{
-    grid-template-areas: 
-    "header header"
-    "main main main"
-    "footer footer";
-}
-.mainNos{
-    grid-template-areas:
-    "posada  "
-    "  img"
-    "   posada 2";
+   
 }
 
 #imgResto{
@@ -120,13 +99,17 @@ form{
     width: 15cm;
     height: 11cm;
     object-position: 10px 30px;
-    grid-area: "img";
+   
 }
 
-
-
-
-
+#posada2{
+    display: flex;
+    margin: 15px 20px 15px 600px;
+    background-color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
 
 /*habitciones*/
 #habitaciones{
