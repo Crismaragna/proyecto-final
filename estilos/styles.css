@@ -12,27 +12,13 @@ header {
   border: 2cm olive;
 }
 
-header .nav-align {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+footer {
+  background-color: olive;
 }
 
-header .nav-align nav ul li {
-  display: inline-block;
-}
-
-header .nav-align nav ul li a {
-  text-decoration: none;
-}
-
-header .nav-align nav ul li a nav ul li a {
-  color: antiquewhite;
-  font-size: large;
-  font-weight: bold;
-  list-style-type: none;
-  text-decoration: none;
-  display: inline-block;
+#contactfoot {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -59,79 +45,27 @@ form {
       flex-wrap: wrap;
 }
 
+#sala {
+  width: 10cm;
+  height: 8cm;
+  border-radius: 15%;
+}
+
 .info {
   margin: 10px 20px 20px 20px;
 }
 
-/*reservas*/
-#reservas {
-  margin: 0px 30px 30px 10px;
-}
-
-.Reservas {
-  margin: 50px 0px 20px 10px;
-}
-
-.reservas {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 200px 200px;
-      grid-template-columns: 200px 200px;
-  -ms-grid-rows: 30px 30px 30px 30px 30px 30px 30px;
-      grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
-  height: 100vh;
-  justify-items: left;
-}
-
-/*nosotros*/
-.nosotros {
-  display: -ms-grid;
-  display: grid;
-}
-
-.mainNos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#posada {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 600px 15px 20px;
-  text-align: left;
-  background-color: white;
-  font-size: larger;
-}
-
-#imgResto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 60px 0px 100px;
-  width: 15cm;
-  height: 11cm;
-  -o-object-position: 10px 30px;
-     object-position: 10px 30px;
-}
-
-#posada2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 20px 15px 600px;
-  background-color: white;
-  font-weight: bold;
-  font-size: larger;
+.infoposada {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*habitciones*/
 #habitaciones {
   background-color: white;
   margin: 10px 15px 10px 15px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .imghab {
@@ -174,18 +108,20 @@ form {
   height: 8cm;
 }
 
-/*sala*/
-#sala {
-  width: 10cm;
-  height: 8cm;
-}
-
 /*menu*/
 .Menu {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "header header" "main main main" "footer footer";
   height: 100vh;
+}
+
+.Menu h1 {
+  font-size: large;
+}
+
+.Menu h3 {
+  font-size: medium;
 }
 
 .menu {
@@ -200,8 +136,69 @@ form {
   margin: auto;
 }
 
-footer {
-  background-color: olive;
-  margin: 0%;
+/*reservas*/
+#reservas {
+  margin: 0px 30px 30px 10px;
+}
+
+.Reservas {
+  margin: 30px 0px 20px 10px;
+}
+
+.reservas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px;
+      grid-template-columns: 200px 200px;
+  -ms-grid-rows: 30px 30px 30px 30px 30px 30px 30px;
+      grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+  height: 100vh;
+  justify-items: left;
+}
+
+/*nosotros*/
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+}
+
+.mainNos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#posada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 600px 15px 20px;
+  text-align: left;
+  background-color: white;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgResto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 60px 0px 100px;
+  width: 15cm;
+  height: 11cm;
+  -o-object-position: 10px 30px;
+     object-position: 10px 30px;
+}
+
+#posada2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 20px 15px 600px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
 }
 /*# sourceMappingURL=styles.css.map */
