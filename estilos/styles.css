@@ -18,7 +18,15 @@ header .nav-align {
           justify-content: flex-end;
 }
 
-header .nav-align nav div ul li a {
+header .nav-align nav ul li {
+  display: inline-block;
+}
+
+header .nav-align nav ul li a {
+  text-decoration: none;
+}
+
+header .nav-align nav ul li a nav ul li a {
   color: antiquewhite;
   font-size: large;
   font-weight: bold;
@@ -33,11 +41,6 @@ body {
 
 main {
   margin: 5px 0px 20px 0px;
-}
-
-footer {
-  background-color: olive;
-  margin: 0%;
 }
 
 form {
@@ -84,7 +87,6 @@ form {
 .nosotros {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header header" " main main main" "footer footer";
 }
 
 .mainNos {
@@ -105,16 +107,6 @@ form {
   font-size: larger;
 }
 
-#posada2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 20px 15px 600px;
-  background-color: white;
-  font-weight: bold;
-  font-size: larger;
-}
-
 #imgResto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,6 +116,16 @@ form {
   height: 11cm;
   -o-object-position: 10px 30px;
      object-position: 10px 30px;
+}
+
+#posada2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 20px 15px 600px;
+  background-color: white;
+  font-weight: bold;
+  font-size: larger;
 }
 
 /*habitciones*/
@@ -196,5 +198,10 @@ form {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
+}
+
+footer {
+  background-color: olive;
+  margin: 0%;
 }
 /*# sourceMappingURL=styles.css.map */

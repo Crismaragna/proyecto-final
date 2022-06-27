@@ -13,16 +13,28 @@ header{
 .nav-align{
     justify-content: flex-end;
 
-nav div ul li a{
+
+nav ul li{
+    display: inline-block;
+
+
+a{
+    text-decoration: none;
+
+
+nav ul li a{
     color:antiquewhite;
     font-size:large;
     font-weight: bold;
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-     }
+        }
+       }
+      }
+    }
    }
-  }
+  
 
 body{
     background-image: url(../img/fondo.jfif);
@@ -30,16 +42,6 @@ body{
 
 main{
     margin: 5px 0px 20px 0px;
-}
-
-
-
-
-
-footer{
-    background-color:olive;
-    margin: 0%;
-  
 }
 
 form{
@@ -77,14 +79,13 @@ form{
 /*nosotros*/
 .nosotros{
     display: grid;
-    grid-template-areas:
-    "header header"
-    " main main main"
-    "footer footer";    
+      
 }
 .mainNos{
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 #posada{
     display: flex;
@@ -92,14 +93,7 @@ form{
     text-align: left;
     background-color: white;
     font-size: larger;
-}
-
-#posada2{
-    display: flex;
-    margin: 15px 20px 15px 600px;
-    background-color: white;
-    font-weight: bold;
-    font-size: larger;
+   
 }
 
 #imgResto{
@@ -108,12 +102,17 @@ form{
     width: 15cm;
     height: 11cm;
     object-position: 10px 30px;
+   
 }
 
-
-
-
-
+#posada2{
+    display: flex;
+    margin: 15px 20px 15px 600px;
+    background-color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
 
 /*habitciones*/
 #habitaciones{
@@ -177,3 +176,9 @@ form{
     margin:auto;
 }
 
+
+footer{
+    background-color:olive;
+    margin: 0%;
+  
+}
