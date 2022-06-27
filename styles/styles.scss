@@ -5,7 +5,6 @@
 
 header{
     background-color:olive;
-   
     display: flex;
     padding: 9px 0px 11px 8px;
     border: 2cm olive;
@@ -13,22 +12,16 @@ header{
 
 footer{
     background-color:olive;
-}
+    margin-bottom: 0%;
 #contactfoot{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
   }
+}
 
 body{
     background-image: url(../img/fondo.jfif);
-}
-
-main{
-    margin: 5px 0px 20px 0px;
-}
-
-form{
-    font-weight: bold;
+    height: 100vh;
 }
 
 /*index*/
@@ -46,10 +39,10 @@ form{
 
 .info{
     margin: 10px 20px 20px 20px;
-}
-.infoposada{
+  .infoposada{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 /*habitciones*/
@@ -116,12 +109,12 @@ form{
 }
 
 /*reservas*/
-#reservas{
-    margin: 0px 30px 30px 10px;
-}
 .Reservas{
     margin: 30px 0px 20px 10px;
+}
     
+#reservas{
+    margin: 0px 30px 30px 10px;
 }
 .reservas{
     display: grid;
@@ -132,40 +125,41 @@ form{
 }
 
 
+
+
 /*nosotros*/
 .nosotros{
     display: grid;
       
 }
+
 .mainNos{
     display: flex;
     flex-wrap: wrap;
-    
 }
-#posada{
+
+ #posada{
     display: flex;
     margin: 15px 600px 15px 20px;
     text-align: left;
     background-color: white;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#imgResto{
-    display: flex;
-    margin: 15px 60px 0px 100px;
-    width: 15cm;
-    height: 11cm;
-    object-position: 10px 30px;
+ }
    
-}
-
-#posada2{
+  #posada2{
     display: flex;
     margin: 15px 20px 15px 600px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     
+  }
+ 
+ #imgResto{
+    display: flex;
+    margin: 15px 60px 0px 100px;
+    width: 15cm;
+    height: 11cm;
+    object-position: 10px 30px;
 }
-
