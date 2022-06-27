@@ -16,6 +16,15 @@ header{
 .nav-align{
     justify-content: flex-end;
 }
+
+nav ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
 nav ul li a{
     color:antiquewhite;
     font-size:large;
@@ -30,20 +39,6 @@ body{
 
 main{
     margin: 5px 0px 20px 0px;
-}
-
-a{
-    text-decoration: none;
-}
-
-nav ul li{
-    display: inline-block;
-}
-
-footer{
-    background-color:olive;
-    margin: 0%;
-  
 }
 
 form{
@@ -81,14 +76,13 @@ form{
 /*nosotros*/
 .nosotros{
     display: grid;
-    grid-template-areas:
-    "header header"
-    " main main main"
-    "footer footer";    
+    grid-area: "header";    
 }
 .mainNos{
     display: flex;
     flex-wrap: wrap;
+    grid-area: "main";
+    
 }
 #posada{
     display: flex;
@@ -96,6 +90,7 @@ form{
     text-align: left;
     background-color: white;
     font-size: larger;
+    grid-area: "posada";
 }
 
 #posada2{
@@ -104,6 +99,19 @@ form{
     background-color: white;
     font-weight: bold;
     font-size: larger;
+    grid-area: "posada2";
+}
+.nosotros{
+    grid-template-areas: 
+    "header header"
+    "main main main"
+    "footer footer";
+}
+.mainNos{
+    grid-template-areas:
+    "posada  "
+    "  img"
+    "   posada 2";
 }
 
 #imgResto{
@@ -112,6 +120,7 @@ form{
     width: 15cm;
     height: 11cm;
     object-position: 10px 30px;
+    grid-area: "img";
 }
 
 
@@ -181,3 +190,9 @@ form{
     margin:auto;
 }
 
+
+footer{
+    background-color:olive;
+    margin: 0%;
+  
+}
