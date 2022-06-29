@@ -1,0 +1,23 @@
+/*menu*/
+.Menu{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main main"
+    "footer footer";
+    height: 100vh;
+    h1{
+        font-size: large;
+    }
+    h3{
+        font-size: medium;
+    }
+    
+}
+.menu{
+    margin: 10px 10px 10px 30px;
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:auto;
+}

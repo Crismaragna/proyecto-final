@@ -24,142 +24,18 @@ body{
     height: 100vh;
 }
 
-/*index*/
-.vid{
-    display:flex;
-    justify-content: space-around;
-    margin: 10px 10px 30px 10px;
-    flex-wrap: wrap;
-}
-#sala{
-    width: 10cm;
-    height: 8cm;
-    border-radius: 15%;
-}
-
-.info{
-    margin: 10px 20px 20px 20px;
-  .infoposada{
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-}
-
-/*habitciones*/
-#habitaciones{
-    background-color: white;
-    margin: 10px 15px 10px 15px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.imghab{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;}
-
-    #imgHab1{
-        margin: 0px 0px 15px 0px;
-     width: 10cm;
-     height: 8cm;}
-
-     #imgHab2{
-        margin: 0px 0px 15px 0px;
-     width: 10cm;
-     height: 8cm;}
-
-     #imgHab3{
-        margin: 0px 0px 15px 0px;
-     width: 10cm;
-     height: 8cm;}
-
-     #imgHab4{
-        margin: 0px 0px 15px 0px;
-     width: 10cm;
-     height: 8cm;}
-
-     #imgHab5{
-        margin: 0px 0px 15px 0px;
-     width: 10cm;
-     height: 8cm;}
-
-
-/*menu*/
-.Menu{
-    display: grid;
-    grid-template-areas:
-    "header header"
-    "main main main"
-    "footer footer";
-    height: 100vh;
-    h1{
-        font-size: large;
-    }
-    h3{
-        font-size: medium;
-    }
-    
-}
-.menu{
-    margin: 10px 10px 10px 30px;
-    display: flex;    
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin:auto;
-}
-
-/*reservas*/
-.Reservas{
-    margin: 30px 0px 20px 10px;
-}
-    
-#reservas{
-    margin: 0px 30px 30px 10px;
-}
-.reservas{
-    display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
-    height: 100vh;
-    justify-items:left
-}
+@import "_index.scss";
+@import "_habitaciones.scss";
+@import "_menu.scss";
+@import "_reservas.scss";
+@import "_nosotros.scss";
 
 
 
 
-/*nosotros*/
-.nosotros{
-    display: grid;
-      
-}
 
-.mainNos{
-    display: flex;
-    flex-wrap: wrap;
-}
 
- #posada{
-    display: flex;
-    margin: 15px 600px 15px 20px;
-    text-align: left;
-    background-color: white;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
- }
-   
-  #posada2{
-    display: flex;
-    margin: 15px 20px 15px 600px;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    
-  }
- 
- #imgResto{
-    display: flex;
-    margin: 15px 60px 0px 100px;
-    width: 15cm;
-    height: 11cm;
-    object-position: 10px 30px;
-}
+
+
+
+

@@ -1,2 +1,20 @@
+/*index*/
+.vid{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 10px 30px 10px;
+    flex-wrap: wrap;
+}
+#sala{
+    width: 10cm;
+    height: 8cm;
+    border-radius: 15%;
+}
 
-
+.info{
+    margin: 10px 20px 20px 20px;
+  .infoposada{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

@@ -1,0 +1,15 @@
+/*reservas*/
+.Reservas{
+    margin: 30px 0px 20px 10px;
+}
+    
+#reservas{
+    margin: 0px 30px 30px 10px;
+}
+.reservas{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    height: 100vh;
+    justify-items:left
+}
