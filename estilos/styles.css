@@ -8,23 +8,11 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 9px 0px 11px 8px;
   border: 2cm olive;
-}
-
-footer {
-  background-color: olive;
-  margin-bottom: 0%;
-}
-
-footer #contactfoot {
-  font-size: small;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   background-image: url(../img/fondo.jfif);
-  height: 100vh;
 }
 
 /*index*/
@@ -157,42 +145,56 @@ body {
 }
 
 .mainNos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-grid-rows: "posada posada posada" "     imgresto     " "posada2 posada2 posada2";
+      grid-template-rows: "posada posada posada" "     imgresto     " "posada2 posada2 posada2";
 }
 
 #posada {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 15px 600px 15px 20px;
   text-align: left;
   background-color: white;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-#posada2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 20px 15px 600px;
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
+  grid-area: "posada";
 }
 
 #imgResto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 15px 60px 0px 100px;
+  justify-self: center;
   width: 15cm;
   height: 11cm;
   -o-object-position: 10px 30px;
      object-position: 10px 30px;
+  grid-area: "imgresto";
+}
+
+#posada2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+  grid-area: "posada 2";
+}
+
+footer {
+  padding-bottom: 10px;
+  background-color: olive;
+}
+
+footer #contactfoot {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

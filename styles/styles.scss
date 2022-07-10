@@ -6,22 +6,14 @@
 header{
     background-color:olive;
     display: flex;
-    padding: 9px 0px 11px 8px;
+    // padding: 9px 0px 11px 8px;
     border: 2cm olive;
    }
 
-footer{
-    background-color:olive;
-    margin-bottom: 0%;
-#contactfoot{
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-}
 
 body{
     background-image: url(../img/fondo.jfif);
-    height: 100vh;
+    ;
 }
 
 @import "_index.scss";
@@ -30,12 +22,12 @@ body{
 @import "_reservas.scss";
 @import "_nosotros.scss";
 
-
-
-
-
-
-
-
-
-
+footer{
+    padding-bottom: 10px;
+    background-color:olive;
+    
+#contactfoot{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
